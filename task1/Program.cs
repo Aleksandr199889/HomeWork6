@@ -5,7 +5,7 @@ for (int i = 0; i < N; i++)
 {
     Console.Write($"Введите число {i + 1}: ");
     int x = int.Parse(Console.ReadLine());
-    if (x >= 0)
+    if (x > 0)
         count++;
 }
 Console.WriteLine($"Положительных чисел: {count}");
